@@ -37,3 +37,5 @@ if (username && password) {
 app.listen(port, () => {
   console.log(`Le serveur se lance sur le port ${port}`);
 });
+
+module.exports = app
